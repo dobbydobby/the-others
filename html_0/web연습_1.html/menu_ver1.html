@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>main menu</title>
+    <style>
+      body{
+        background-color:#363638;
+      }
+      .logo{
+        width:100%;
+        hight: auto;
+        border: 1px solid #000000;
+        background-color: #584b4f;
+        color: #efe0bb;
+      }
+      a h1{
+        position: absolute;
+        top: -10px;
+      }
+      /* 메뉴디자인 */
+      a{
+        text-decoration: none;
+        list-style: none;
+        color: #eed9b7;
+        posttion: relative;
+        height: 60px;
+        width: 300px;
+        float: left;
+      }
+      ul{
+        background-color: #584b4f;
+        padding-left: 5px;
+        margin-bottom: 100px;
+        border: 1px solid #000000;
+        /* width랑 hight는 봐서 */
+      }
+      .menu{
+        margin-bottom: 300px;
+      }
+      /*그리핀도르기숙사이미지 */
+      .imgcontainor_0{
+        position: relative;
+        width:80%;
+      }
+      .gryffindorimg{
+        position: absolute;
+        width: 100%;
+        height:auto;
+        border-radius: 8px;
+      }
+      .overlay_0{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #565656;
+        border-radius: 8px;
+      }
+      .imgcontainor_0:hover .overlay_0{
+        opacity: 0.7%;
+      }
+      .overlay_0txt{
+        position: absolute;
+        color: white;
+        font-siz: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- logo -->
+    <a class="logo" href="C:\Users\yuri\Desktop\web연습_2학년포폴\web연습_2학년포폴.html\menu.html"><h1>Dobby's protfolio</h1></a>
+    <!-- 메뉴 -->
+    <nav class="menu">
+      <ul>
+        <a href="C:\Users\yuri\Desktop\web연습_2학년포폴\web연습_2학년포폴.html\programming.html"><li>programming</li></a>
+        <a href="C:\Users\yuri\Desktop\web연습_2학년포폴\web연습_2학년포폴.html\videoediting.html"><li>video editing</li></a>
+        <a href="C:\Users\yuri\Desktop\web연습_2학년포폴\web연습_2학년포폴.html\german.html"><li>german</li></a>
+      </ul>
+   </nav>
+   <!-- 그리핀도르이미지 -->
+   <div class="imgcontainor_0">
+     <img class="gryffindorimg" src="C:\Users\yuri\Desktop\web연습_2학년포폴\web연습_2학년포폴.html\이미지\gryffindorcommonroom.jpg" alt="">
+     <div class="overlay_0">
+       <div class="overlay_0txt">Dobby who wants to be programmer</div>
+     </div>
+   </div>
+  </body>
+</html>
